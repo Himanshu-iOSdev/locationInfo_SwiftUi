@@ -11,6 +11,8 @@
 		A39298C92656CA4B00CCFCE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39298C82656CA4B00CCFCE7 /* ContentView.swift */; };
 		A39298CB2656CA4C00CCFCE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39298CA2656CA4C00CCFCE7 /* Assets.xcassets */; };
 		A39298CE2656CA4C00CCFCE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39298CD2656CA4C00CCFCE7 /* Preview Assets.xcassets */; };
+		A39298D82656CF3100CCFCE7 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = A39298D62656CF3100CCFCE7 /* locations.json */; };
+		A39298D92656CF3100CCFCE7 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = A39298D72656CF3100CCFCE7 /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A39298CA2656CA4C00CCFCE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A39298CD2656CA4C00CCFCE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A39298CF2656CA4C00CCFCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39298D62656CF3100CCFCE7 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		A39298D72656CF3100CCFCE7 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				A39298C62656CA4B00CCFCE7 /* LocationInfo_SwiftUiApp.swift */,
 				A39298C82656CA4B00CCFCE7 /* ContentView.swift */,
+				A39298D62656CF3100CCFCE7 /* locations.json */,
+				A39298D72656CF3100CCFCE7 /* tips.json */,
 				A39298CA2656CA4C00CCFCE7 /* Assets.xcassets */,
 				A39298CF2656CA4C00CCFCE7 /* Info.plist */,
 				A39298CC2656CA4C00CCFCE7 /* Preview Content */,
@@ -127,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39298CE2656CA4C00CCFCE7 /* Preview Assets.xcassets in Resources */,
+				A39298D92656CF3100CCFCE7 /* tips.json in Resources */,
+				A39298D82656CF3100CCFCE7 /* locations.json in Resources */,
 				A39298CB2656CA4C00CCFCE7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

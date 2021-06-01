@@ -8,14 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
+  let location: Location
+  
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+      ScrollView {
+        Image(location.heroPicture)
+          .resizable()
+          .scaledToFit()
+          .padding()
+        
+        Text(location.name)
+          .font(.largeTitle)
+          .bold()
+          
+        Text(location.country)
+          .foregroundColor(.secondary)
+          .font(.title)
+        
+        Text(location.description).padding()
+        
+        Text("Did you know?")
+          .font(.title3)
+          .padding()
+        
+        Text(location.more).padding()
+      }
+      .navigationTitle("Discover")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+      ContentView(location: Location.example)
     }
 }
